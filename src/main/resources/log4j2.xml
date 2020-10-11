@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="LogConsole" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%-5p] %d{yyyy-MM-dd HH:mm:ss.SSS} %c{1}:%L - %m%n"/>
+        </Console>
+        <RollingFile name="ToRollingFile" fileName="D:/IDEA_projects/EPAM/RepairAgency/log/logs.log"
+                     filePattern="D:/IDEA_projects/EPAM/RepairAgency/log/logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log">
+            <PatternLayout pattern="[%-5p] %d{yyyy-MM-dd HH:mm:ss.SSS} %c{1}:%L - %m%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="ToRollingFile"/>
+            <AppenderRef ref="LogConsole"/>
+        </Root>
+    </Loggers>
+</Configuration>

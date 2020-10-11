@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Arimo&display=swap');
+
+body {
+    background-color: #f2f2f2;
+    font-family: "Arimo";
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+    min-width: 100%;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #343148;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 28px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a,
+.nav-link {
+    color: #0062cc;
+}
+
+a:hover {
+    color: #ff7878;
+    outline: 0;
+}
+
+hr {
+    background-color: #343148;
+}
+
+.form-group select,
+.form-group input,
+.form-group textarea {
+    color: black;
+}
+
+.navbar {
+    font-weight: 500;
+    background: #343148;
+    border-color: #343148;
+}
+
+.navbar .navbar-text {
+    font-size: 22px;
+    color: #eae6da;
+    margin-left: 3px;
+}
+
+.nav-link:hover,
+.btn:hover,
+.btn:hover:active:focus,
+#pageBody .row .col-sm-3 .list-group a:hover {
+    color: #ff7878;
+    background-color: #343148;
+    box-shadow: none;
+}
+
+.logout {
+    line-height: 36px;
+    color: #eae6da;
+    font-size: 15px;
+}
+
+.logout span {
+    padding-right: 20px;
+}
+
+.logout a {
+    color: #eae6da;
+}
+
+.btn {
+    color: #eae6da;
+    background: #343148;
+    border-color: #343148;
+    font-size: 15px;
+    outline: none;
+}
+
+main .cancel-btn {
+    margin-left: 10px;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.submit-button {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.modal-header {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: #cccccc;
+}
+
+.modal-footer .col-sm-12 {
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+    border: none;
+}
+
+.modal-footer {
+    padding: 2px;
+    background-color: #cccccc;
+}
+
+.modal-body {
+    background-color: #cccccc;
+}
+
+.modal-body .form-group {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.formError {
+    font-size: 11px;
+    line-height: 15px;
+    color: red;
+    padding: 0;
+    margin: 0;
+}
+
+.reg_radio {
+    margin-bottom: 0px;
+    margin-top: -15px;
+    text-align: center;
+}
+
+
+
+main .order {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+main .order h6 {
+    margin: 0;
+    padding: 4px 0;
+    text-align: left;
+}
+
+main .up_h {
+    text-align: start;
+    padding-top: 50px;
+}
+
+main .order hr {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+main .order p {
+    margin: 0;
+    padding: 0;
+}
+
+main .order .col-md-1{
+    padding-top: 5px;
+}
+
+#order_footer p,
+.col-md-1,
+main #scc_reg{
+    text-align: center;
+}
+
+main #userInfo .col-md-1,
+main #userInfo .col-md-2,
+main #userInfo .col-md-3 {
+    overflow: auto;
+}
+
+.page-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #cccccc;
+    color: black;
+}
+
+.page-content #order_footer {
+    padding-right: 0;
+    padding-bottom: 15px;
+}
+
+.page-content #order_footer .col-lg-4 {
+    padding-right: 0;
+}
+
+.red-mess {
+    color: red;
+}
+
+#reviewDate{
+    padding-top: 10px;
+}
+
+#pageBody {
+    min-height: 250px;
+}
+
+.list-group,
+#pageBody .row .col-sm-9 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#pageBody .list-group a {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 5px;
+    background-color: #343148;
+    color: #eae6da;
+}
+
+#pageBody .col-md-6 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#pageBody .col-sm-3 {
+    background-color: #cccccc;
+    min-height: 250px;
+}
+
+.card {
+    background-color: #f2f2f2;
+    border: none;
+}
+
+.card-body {
+    padding: 10px;
+    background-color: #cccccc;
+    border-radius: 3px;
+}
+
+.card-body h5 {
+    text-align: left;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+#reviewsCards h2 {
+    padding-bottom: 20px;
+}
+
+#reviewsCards {
+    background-color: #f2f2f2;
+    margin-bottom: 30px;
+}
+
+#reviewsCards .reviewsDate {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#reviewsLink {
+    padding-top: 20px;
+    text-align: right;
+}
+
+#review-textarea {
+    width: 100%;
+    min-height: 130px;
+    border-radius: 5px;
+    border-color: Transparent;
+    margin-bottom: 15px;
+}
+
+#review h5 {
+    text-align: left;
+}
+
+.pagination li {
+    font-size: 12px;
+    margin-right: 5px;
+    display: none;
+    border-radius: 3px;
+}
+
+.pagination li:last-child, .pagination li:first-child {
+    display: inline-block;
+}
+
+@media screen and (min-width: 640px) {
+    .pagination li {
+        display: inline-block;
+    }
+}
+
+.pagination a {
+    display: block;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+.pagination a:hover,
+.logout a:hover {
+    background: #343148;
+    color: #ff7878;
+    text-decoration: none;
+}
+
+.pagination .current {
+    padding: 3px 10px;
+    background: #cccccc;
+    cursor: default;
+}
+
+.pagination .disabled a {
+    color: #cccccc;
+    cursor: default;
+}
+
+.pagination .disabled a:hover {
+    background: transparent;
+    color: #cccccc;
+}
+
+#aboutUs {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.movableIcon {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 80px;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.movableIcon:hover {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+#contacts {
+    background-color: #cccccc;
+}
+
+.fas {
+    margin-right: 5px;
+}
+
+#suggestions h4 {
+    padding-bottom: 40px;
+}
+
+#contacts {
+    text-align: center;
+}
+
+#footer {
+    background: #343148;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    min-width: 100%;
+    font-family: "Roboto";
+    color: #eae6da;
+}
+
+#footer span{
+    margin-right: 15px;
+}
